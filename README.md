@@ -1,6 +1,6 @@
 stateful-value: Values with built-in states
 ===========================================
-Please see ARTICLE.md for the rationale of the package.
+Please see [ARTICLE.md](https://github.com/cnshenj/stateful-value/blob/main/ARTICLE.md) for the rationale of the package.
 
 # Installation
 npm i -S stateful-value
