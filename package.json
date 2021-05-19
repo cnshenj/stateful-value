@@ -2,6 +2,10 @@
   "name": "stateful-value",
   "version": "1.0.0",
   "description": "Values with built-in states. Suitable for async operations.",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/cnshenj/stateful-value.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p .",
