@@ -121,3 +121,11 @@ export class Unfulfilled {
 export type StatefulValue<T> = T | undefined | Unfulfilled | Error;
 
 ```
+
+## Supporting more states
+It is easy to support more states, just define a special class like `Unfulfilled` to represent each state.
+```typescript
+export class Unfulfilled {}
+export class Loading {}
+type StatefulValue<T> = T | undefined | Unfulfilled | Loading | Error;
+```
